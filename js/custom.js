@@ -81,3 +81,13 @@ function myMap() {
 $(document).ready(function () {
     $('select').niceSelect();
 });
+
+// script.js
+document.addEventListener('DOMContentLoaded', function () {
+    const whatsappButton = document.querySelector('.whatsapp-button');
+
+    whatsappButton.addEventListener('click', function () {
+        console.log('WhatsApp button clicked');
+        // Additional interaction or analytics code can go here
+    });
+});
